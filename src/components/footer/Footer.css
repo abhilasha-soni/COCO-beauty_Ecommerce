@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:black;
+  color: white;
+  width: 1600px;
+  padding: 50px;
+  align-items: center;
+}
+
+.footer-socialmedia-icons {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.brand-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style:normal;
+  font-size:medium;
+}

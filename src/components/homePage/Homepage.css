@@ -1,0 +1,29 @@
+.homePageImageIcons {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* column-gap: 25px; */
+  margin: 25px;
+}
+
+.homePageImageIcons img {
+  /* border-radius: 20px; */
+  box-shadow: 20px 20px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.homePageImageIconsContainer {
+  margin-top: -210px;
+}
+
+.header {
+  background-color: white;
+  color: black;
+  width: 1600px;
+  /* border-radius: 10px; */
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.homePageImage{
+  width: 225px;
+}

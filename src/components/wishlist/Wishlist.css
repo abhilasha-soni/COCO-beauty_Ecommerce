@@ -1,0 +1,22 @@
+.cardImage{
+ width: 300;
+ height: 300;
+ object-fit: fill;
+}
+.card{
+position: relative;
+}
+.cart-btn-addtocart-details {
+  height: 50px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: cadetblue;
+  color: "white";
+  font-size: medium;
+}
+.card-actions{
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,91 @@
+.emptyDiv {
+  height: 170px;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 45px;
+  align-items: center;
+  /* border-radius: 50px; */
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding:15px;
+}
+.cart-item-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 45px;
+  align-items: center;
+  /* border-radius: 50px; */
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.cart-content {
+  /* background-color: blueviolet; */
+  width: 350px;
+  text-align: left;
+  padding-left: 50px;
+}
+.payment-card {
+  width: 400px;
+  min-height: 500px;
+  background-color: blue;
+}
+
+.cart-Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.payment-Card {
+  /* border-radius: 50px; */
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.MuiPopover-paper {
+  z-index: 9999;
+}
+
+.cart-text-add{
+  /* background-color: blueviolet; */
+  width: 50px;
+  font-size:large;
+  font-weight: bold;
+}
+
+.cart-btn-addtocart-add{
+width: 30px;
+height: 30px;
+}
+.payment-container{
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+justify-content: right;
+  align-items: center;
+    margin-left: 50px;
+      margin-bottom: 10px;
+      padding: 15px;
+}
+.payment-logo{
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+  margin: auto;
+}
+.payment-total-details{
+  text-align: right;
+}
+.empty-cart{
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}

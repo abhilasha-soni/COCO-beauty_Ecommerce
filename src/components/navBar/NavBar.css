@@ -1,0 +1,96 @@
+.navbar-logo {
+  width: 150px;
+}
+.iconsBar{
+  width: 400px;
+  display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content:baseline;
+}
+.toggle-button{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: baseline;
+}
+.navbar-icons{
+  width:60px;
+
+ 
+}
+.navbar-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.toolbar-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar-bottom-toolbar {
+  background-color: white;
+  color: black;
+  height: 30px;
+  justify-content:space-evenly
+}
+
+.navbar-search-input {
+  background-color: rgba(216, 203, 203, 0.589);
+  border-radius: 10px;
+  height: 50px;
+  font-size: medium;
+  width: 350px;
+}
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.navBar-cart {
+  width: 100px;
+  align-items: center;
+  column-gap: 5px;
+}
+.cart-text {
+  font-size: large;
+}
+.navBar-bottom-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card-btn {
+  margin-top: 60px;
+  margin-left: 15px;
+  column-gap: 50px;
+}
+
+.cardGrid {
+  column-gap: 30px;
+  row-gap: 20px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.Loading {
+  width: 250px;
+  align-items: center;
+  justify-content: space-around;
+}
+.emptyDiv {
+  height: 170px;
+}

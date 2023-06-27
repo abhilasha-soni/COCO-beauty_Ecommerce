@@ -1,0 +1,17 @@
+.item {
+  display: inline-block;
+}
+
+.appBar-toolbar {
+  margin-left: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appBar-toolbar-brands {
+  font-size: 18px;
+}

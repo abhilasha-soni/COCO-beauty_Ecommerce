@@ -1,0 +1,8 @@
+.cart-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.empty-div{
+  height: 160px;
+}
